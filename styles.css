@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    border: 1px solid black;
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    margin: 0px;
+}
+.container :hover{
+    background-color: orange;
+}
